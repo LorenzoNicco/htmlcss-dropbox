@@ -129,3 +129,18 @@
     background-color: aqua;
     border: 2px dashed black;
 }
+
+/* FOOTER */
+.debug .footer-links{
+    border: 2px dashed black;
+}
+
+.debug footer li{
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug footer .language{
+    background-color: yellow;
+    border: 2px dashed black;
+}

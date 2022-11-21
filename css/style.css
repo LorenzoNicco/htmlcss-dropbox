@@ -73,6 +73,25 @@ header{
 }
 
 /* FAQ */
+.section5{
+    margin-bottom: 100px;
+}
+
 .section5 .faq > div{
     width: 100%;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    padding: 70px 0 20px;
+}
+
+footer br{
+    border: 2px solid #b8b8b8;
+    margin: 70px 0 20px;
+}
+
+footer nav{
+    width: 20%;
 }
