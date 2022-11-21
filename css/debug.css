@@ -1,0 +1,17 @@
+/* HEADER */
+.debug header > nav{
+    border: 2px dashed black;
+    background-color: orange;
+}
+
+.debug header div{
+    height: 20px;
+    width: 60px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+.debug header li{
+    background-color: yellow;
+    border: 2px dashed black;
+}

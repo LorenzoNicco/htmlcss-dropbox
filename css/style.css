@@ -1,0 +1,10 @@
+/* HEADER */
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
