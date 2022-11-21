@@ -46,3 +46,28 @@ header{
     width: 30%;
     margin-top: 20px;
 }
+
+/* AZIENDE PARTNER */
+.section4 .companies{
+    width: 100vw;
+    height: calc(100vw / 3);
+}
+
+.section4 .brands{
+    flex-wrap: wrap;
+}
+
+.section4 .companies > div{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.section4 .brands > div{
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
+
+.section4 .trial{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
