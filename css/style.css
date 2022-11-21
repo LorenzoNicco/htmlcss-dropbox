@@ -1,6 +1,6 @@
 /* HEADER */
 header{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -9,12 +9,44 @@ header{
     background-color: white;
 }
 
+header a{
+    color: black;
+    padding: 20px 10px;
+    margin-left: 10px;
+}
+
+header button > a{
+    color: white;
+    margin-left: 0;
+}
+
 /* MAIN */
 /* PRESENTAZONE */
 .section1{
     background-color: #b4d0e7;
     padding: 100px 0;
     margin: 100px 0;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+.section1 .row{
+    align-items: flex-start;
+}
+
+.section1 button a{
+    color: white;
+}
+
+.section1 .text{
+    width: 30%;
+}
+
+.section1 img{
+    width: 70%;
 }
 
 /* PIANI DI ABBONAMENTO */

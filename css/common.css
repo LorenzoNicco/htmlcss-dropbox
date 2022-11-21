@@ -38,3 +38,9 @@ a{
 section{
     margin-bottom: 100px;
 }
+
+button{
+    background-color: #0061ff;
+    border-style: none;
+    padding: 10px;
+}
