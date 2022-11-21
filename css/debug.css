@@ -59,3 +59,34 @@
     background-color: green;
     height: 200px;
 }
+
+/* FUNZIONI */
+.debug .section3 > .partner-finder > div:first-child{
+    height: 500px;
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .partner-finder > div:last-child{
+    height: 500px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .operations{
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .operations > div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .first-row > div,.second-row > div{
+    height: 400px;
+    background-color: aqua;
+    border: 2px dashed black;
+}

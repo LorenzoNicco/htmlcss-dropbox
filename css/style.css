@@ -28,3 +28,21 @@ header{
     border: 1px solid #ececed;
     width: 100%;
 }
+
+/* FUNZIONI */
+.section3 > .partner-finder{
+    margin-bottom: 100px;
+}
+
+.section3 > .partner-finder > div:first-child{
+    width: 60%;
+}
+
+.section3 > .partner-finder > div:last-child{
+    width: 40%;
+}
+
+.section3 .first-row > div,.second-row > div{
+    width: 30%;
+    margin-top: 20px;
+}

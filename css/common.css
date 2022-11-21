@@ -30,3 +30,7 @@ ul{
     list-style: none;
     text-decoration: none;
 }
+
+section{
+    margin-bottom: 100px;
+}
