@@ -87,8 +87,8 @@ footer{
     padding: 70px 0 20px;
 }
 
-footer br{
-    border: 2px solid #b8b8b8;
+footer hr{
+    color: #b8b8b8;
     margin: 70px 0 20px;
 }
 
