@@ -115,3 +115,17 @@
     background-color: green;
     border: 2px dashed black;
 }
+
+/* FAQ */
+.debug .section5 div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .section5 .faq > div{
+    height: 200px;
+    background-color: aqua;
+    border: 2px dashed black;
+}

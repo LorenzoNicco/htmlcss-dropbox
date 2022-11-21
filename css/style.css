@@ -71,3 +71,8 @@ header{
     background-color: #b4d0e7;
     padding: 100px 0;
 }
+
+/* FAQ */
+.section5 .faq > div{
+    width: 100%;
+}
