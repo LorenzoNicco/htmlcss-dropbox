@@ -26,6 +26,10 @@ body{
     align-items: center;
 }
 
+.ai-stretch{
+    align-items: stretch;
+}
+
 ul{
     list-style: none;
     text-decoration: none;

@@ -5,8 +5,12 @@ header{
     top: 0px;
     left: 0px;
     right: 0px;
-    padding: 20px;
+    padding: 0 20px;
     background-color: white;
+}
+
+header li{
+    padding: 20px 0;
 }
 
 header a{
@@ -25,7 +29,7 @@ header button > a{
 .section1{
     background-color: #b4d0e7;
     padding: 100px 0;
-    margin: 100px 0;
+    margin-top: 62px;
 }
 
 h1{
@@ -90,13 +94,13 @@ h1{
 }
 
 .section4 .companies > div{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     height: calc(100vw / 3);
 }
 
 .section4 .brands > div{
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
+    width: 50%;
+    height: 50%;
 }
 
 .section4 .trial{
