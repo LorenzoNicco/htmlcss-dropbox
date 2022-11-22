@@ -67,6 +67,10 @@ h1{
 }
 
 /* PIANI DI ABBONAMENTO */
+.section2 h2{
+    font-size: 2em;
+}
+
 .plans > div{
     border: 1px solid #ececed;
     width: 30%;
