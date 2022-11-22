@@ -106,16 +106,8 @@ h1{
     text-align: center;
 }
 
-.section2 .padding-30{
-    padding: 30px;
-}
-
 .section2 .plan-title > div:last-child{
     color: gray;
-}
-
-.section2 .middle-son-margin{
-    margin: 20px 0;
 }
 
 .section2 button{
@@ -172,12 +164,28 @@ h1{
     margin-bottom: 100px;
 }
 
-.section3 > .partner-finder > div:first-child{
+.section3 > .partner-finder > .col-img{
     width: 60%;
 }
 
-.section3 > .partner-finder > div:last-child{
+.section3 .col-img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section3 > .partner-finder > .col-text{
     width: 40%;
+    padding-left: 40px;
+}
+
+.section3 .col-text > button{
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.section3 .col-text > button > a{
+    color: gray;
 }
 
 .section3 .first-row > div,.second-row > div{
