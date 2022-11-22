@@ -331,14 +331,33 @@ h1{
 /* FOOTER */
 footer{
     background-color: #000000;
-    padding: 70px 0 20px;
+    padding: 70px 0;
 }
 
 footer hr{
-    color: #b8b8b8;
-    margin: 70px 0 20px;
+    border: 1px solid white;
+    margin: 50px 0;
+    width: 20%;
 }
 
 footer nav{
     width: 20%;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer li{
+    padding: 5px 0;
+}
+
+footer a{
+    color: white;
+}
+
+.language{
+    color: gray;
+    font-size: 0.8em;
 }
