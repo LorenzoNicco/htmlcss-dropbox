@@ -37,6 +37,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 section{
@@ -47,4 +48,8 @@ button{
     background-color: #0061ff;
     border-style: none;
     padding: 10px;
+}
+
+button > a{
+    color: white;
 }

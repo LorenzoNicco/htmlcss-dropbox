@@ -7,6 +7,7 @@ header{
     right: 0px;
     padding: 0 20px;
     background-color: white;
+    z-index: 30;
 }
 
 header li{
@@ -14,13 +15,11 @@ header li{
 }
 
 header a{
-    color: black;
     padding: 20px 10px;
     margin-left: 10px;
 }
 
 header button > a{
-    color: white;
     margin-left: 0;
 }
 
@@ -28,29 +27,43 @@ header button > a{
 /* PRESENTAZONE */
 .section1{
     background-color: #b4d0e7;
-    padding: 100px 0;
     margin-top: 62px;
+}
+
+.section1 > .container-big{
+    position: relative;
+    top: 75px;
 }
 
 h1{
     font-weight: bolder;
     font-size: 4em;
+    margin-bottom: 70px;
 }
 
 .section1 .row{
     align-items: flex-start;
 }
 
-.section1 button a{
-    color: white;
-}
-
 .section1 .text{
     width: 30%;
 }
+.section1 button{
+    margin: 40px 0;
+}
+
+.section1 .fa-solid{
+    margin-top: 70px;
+}
+
+.section1 .img{
+    width: 70%;
+}
 
 .section1 img{
-    width: 70%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* PIANI DI ABBONAMENTO */
