@@ -106,7 +106,7 @@ h1{
     text-align: center;
 }
 
-.section2 .plan-title, .plan-description, p, .plan-hl{
+.section2 .padding-30{
     padding: 30px;
 }
 
@@ -144,13 +144,27 @@ h1{
     padding: 0;
 }
 
-.sos-24h{
+.section2 .sos-24h{
     justify-content: flex-start;
 }
 
-.enterprise-plan{
-    border: 1px solid #ececed;
+.section2 .enterprise-plan{
+    border: 1px solid lightgray;
     width: 100%;
+}
+
+.section2 .enterprise-plan button{
+    width: 250px;
+}
+
+.section2 .enterprise-plan .sell-office{
+    align-self: flex-start;
+}
+
+.section2 .enterprise-body > p{
+    text-align: left;
+    width: 70%;
+    margin-top: 40px;
 }
 
 /* FUNZIONI */
