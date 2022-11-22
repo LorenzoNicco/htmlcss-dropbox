@@ -202,7 +202,7 @@ h1{
 
 /* AZIENDE PARTNER */
 .section4{
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 .section4 > div:first-child > p{
@@ -317,8 +317,15 @@ h1{
     margin-bottom: 100px;
 }
 
-.section5 .faq > div{
+.section5 h2{
+    padding: 50px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.section5 .faq > .question{
     width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 0;
 }
 
 /* FOOTER */
