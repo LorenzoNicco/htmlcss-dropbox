@@ -90,10 +90,57 @@ h1{
     margin-left: 30px;
 }
 
-.plans > div{
-    border: 1px solid #ececed;
+.section2 .col-plan{
+    border: 1px solid lightgray;
     width: 30%;
     margin: 30px 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section2 .plan-user{
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    align-self: stretch;
+    text-align: center;
+}
+
+.section2 .plan-title, .plan-description, p, .plan-hl{
+    padding: 30px;
+}
+
+.section2 .plan-title > div:last-child{
+    color: gray;
+}
+
+.section2 .middle-son-margin{
+    margin: 20px 0;
+}
+
+.section2 button{
+    align-self: center;
+    padding: 10px 30px;
+}
+
+.section2 .col-plan > p > a{
+    text-decoration: underline;
+    color: #1032f0;
+}
+
+.section2 .col-plan > hr{
+    width: 55px;
+    border-color: lightgray;
+    margin-left: 30px;
+}
+
+.section2 .fa-check{
+    color: #0061ff;
+    align-self: flex-start;
+    padding: 2px;
+}
+
+.section2 .after-check{
+    padding: 0;
 }
 
 .enterprise-plan{
