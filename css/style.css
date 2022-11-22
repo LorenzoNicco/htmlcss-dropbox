@@ -67,10 +67,6 @@ h1{
 }
 
 /* PIANI DI ABBONAMENTO */
-.section2 h2{
-    font-size: 2em;
-}
-
 .section2 .radio-buttons{
     justify-content: flex-start;
     margin: 40px 0;
@@ -188,9 +184,20 @@ h1{
     color: gray;
 }
 
-.section3 .first-row > div,.second-row > div{
+.section3 .card{
     width: 30%;
     margin-top: 20px;
+    flex-direction: column;
+}
+
+.section3 .card > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section3 .operations > h2{
+    margin-bottom: 40px;
 }
 
 /* AZIENDE PARTNER */
