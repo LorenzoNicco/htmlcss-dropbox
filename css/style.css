@@ -71,6 +71,25 @@ h1{
     font-size: 2em;
 }
 
+.section2 .radio-buttons{
+    justify-content: flex-start;
+    margin: 40px 0;
+}
+
+.section2 .radio-buttons > div{
+    border: 4px solid #0061ff;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.section2 .radio-buttons > .radio-gray{
+    border: 2px solid #d8d8db;
+    margin-left: 30px;
+}
+
 .plans > div{
     border: 1px solid #ececed;
     width: 30%;
