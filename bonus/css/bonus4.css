@@ -3,14 +3,6 @@
     flex-direction: column;
 }
 
-.flex-al-it-start{
-    align-items: flex-start;
-}
-
-.flex-just-start{
-    justify-content: flex-start;
-}
-
 .col-60{
     width: 60%;
 }
@@ -58,6 +50,13 @@ li a{
     background-color: black;
     color: white;
     margin-top: 60px;
+    margin-bottom: 0;
+    padding: 100px 0;
+}
+
+.film-section .col-60{
+    align-items: flex-start;
+    gap: 20px;
 }
 
 h1{
@@ -74,6 +73,43 @@ h1{
 }
 
 /* SECURITY */
+.section-security{
+    padding: 100px 0;
+}
 .section-security button{
     margin-top: 70px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+
+footer hr{
+    border: 1px solid white;
+    margin: 50px 0;
+    width: 20%;
+}
+
+footer nav{
+    width: 20%;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer li{
+    padding: 5px 0;
+}
+
+footer a{
+    color: white;
+}
+
+.language{
+    color: gray;
+    font-size: 0.8em;
 }
