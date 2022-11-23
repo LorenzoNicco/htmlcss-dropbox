@@ -76,6 +76,7 @@ header .menu-opener:not(#logo):hover{
 .section1{
     background-color: #b4d0e7;
     margin-top: 62px;
+    width: 100%;
 }
 
 .section1 > .container-big{
@@ -285,7 +286,7 @@ h1{
     color: #1032f0;
 }
 .section4 .companies{
-    width: 100vw;
+    width: 100%;
     height: calc(100vw / 3);
     margin-top: 100px;
 }
