@@ -293,10 +293,9 @@ h1{
     background-color: #ffd830;
 }
 
-.section4 svg{
-    fill: white;
+.section4 img:not(#designit-cntr){
     width: 50%;
-    height: 50%;
+    filter: invert(1);
 }
 
 .section4 .central-designit{
