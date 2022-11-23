@@ -1,0 +1,387 @@
+/* HEADER */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0 10px;
+    background-color: white;
+    z-index: 30;
+    line-height: 40px;
+}
+
+header nav{
+    height: 100%;
+}
+
+header li{
+    padding: 20px;
+}
+
+header img, a{
+    vertical-align: middle;
+}
+
+header button{
+    padding: 10px 20px;
+}
+
+header li:not(#logo):hover{
+    box-shadow: inset 0px -2px 0px 0px #000000;
+}
+
+/* MAIN */
+/* PRESENTAZONE */
+.section1{
+    background-color: #b4d0e7;
+    margin-top: 62px;
+}
+
+.section1 > .container-big{
+    position: relative;
+    top: 75px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 4em;
+    margin-bottom: 70px;
+}
+
+.section1 .row{
+    align-items: flex-start;
+}
+
+.section1 .text{
+    width: 30%;
+}
+.section1 button{
+    margin: 40px 0;
+}
+
+.section1 .fa-solid{
+    margin-top: 70px;
+}
+
+.section1 .img{
+    width: 70%;
+}
+
+.section1 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* PIANI DI ABBONAMENTO */
+.section2 .radio-buttons{
+    justify-content: flex-start;
+    margin: 40px 0;
+}
+
+.section2 .radio-buttons > div{
+    border: 4px solid #0061ff;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.section2 .radio-buttons > .radio-gray{
+    border: 2px solid #d8d8db;
+    margin-left: 30px;
+}
+
+.section2 .col-plan{
+    border: 1px solid lightgray;
+    width: 32%;
+    margin: 30px 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section2 .plan-user{
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    align-self: stretch;
+    text-align: center;
+}
+
+.section2 .plan-title > div:last-child{
+    color: gray;
+}
+
+.section2 .plan-description > li{
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
+.section2 button{
+    align-self: center;
+    width: 80%;
+}
+
+.section2 .first-row-btn{
+    margin-top: 22px;
+}
+
+.section2 .buy-now{
+    line-height: 1em;
+}
+
+.section2 .buy-now > span{
+    vertical-align: middle;
+}
+
+.section2 .col-plan > p > a{
+    text-decoration: underline;
+    color: #1032f0;
+    vertical-align: middle;
+}
+
+.section2 .col-plan > hr{
+    width: 55px;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+}
+
+.section2 .fa-check{
+    color: #0061ff;
+    align-self: flex-start;
+    padding: 2px;
+}
+
+.section2 .after-check{
+    padding: 0;
+}
+
+.section2 .sos-24h{
+    justify-content: flex-start;
+}
+
+.section2 .enterprise-plan{
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.section2 .enterprise-plan button{
+    width: 250px;
+}
+
+.section2 .enterprise-plan .sell-office{
+    align-self: flex-start;
+}
+
+.section2 .enterprise-body > p{
+    text-align: left;
+    width: 70%;
+    margin-top: 40px;
+}
+
+/* FUNZIONI */
+.section3 > .partner-finder{
+    margin-bottom: 100px;
+}
+
+.section3 > .partner-finder > .col-img{
+    width: 60%;
+}
+
+.section3 .col-img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section3 > .partner-finder > .col-text{
+    width: 40%;
+    padding-left: 40px;
+}
+
+.section3 .col-text > button{
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.section3 .col-text > button > a{
+    color: gray;
+}
+
+.section3 .card{
+    width: 30%;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.section3 .card > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section3 .operations > h2{
+    margin-bottom: 40px;
+}
+
+/* AZIENDE PARTNER */
+.section4{
+    margin: 100px 0;
+}
+
+.section4 > div:first-child > p{
+    margin-top: 50px;
+}
+
+.section4 > div:first-child a{
+    text-decoration: underline;
+    color: #1032f0;
+}
+.section4 .companies{
+    width: 100vw;
+    height: calc(100vw / 3);
+    margin-top: 100px;
+}
+
+.section4 .brands{
+    flex-wrap: wrap;
+}
+
+.section4 .companies > div{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.section4 .brands > div{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .designit{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+.section4 .arizona-su{
+    background-color: #61082b;
+}
+
+.section4 .florida{
+    background-color: #0093ce;
+}
+
+.section4 .topps{
+    background-color: #ff1c1c;
+}
+
+.section4 .bycicle{
+    background-color: #d5001f;
+}
+
+.section4 .hearst{
+    background-color: #b4d0e7;
+}
+
+.section4 .lonely-planet{
+    background-color: #0d2481;
+}
+
+.section4 .clear-channel{
+    background-color: #ffd830;
+}
+
+.section4 img:not(#designit-cntr){
+    width: 50%;
+    filter: invert(1);
+}
+
+.section4 .central-designit{
+    background-color: #f5f5f5;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section4 .central-designit > img{
+    width: 50%;
+}
+
+.section4 hr{
+    width: 70px;
+    border: 1px solid lightgray;
+}
+
+.section4 .trial{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+
+.section4 .trial .col-title{
+    width: 60%;
+}
+
+.section4 .trial .col-title > h2{
+    color: #61082b;
+}
+
+.section4 .trial .col-button{
+    width: 40%;
+    text-align: right;
+}
+
+.section4 .trial .col-button > button{
+    padding: 10px 20px
+}
+
+/* FAQ */
+.section5{
+    margin-bottom: 100px;
+}
+
+.section5 h2{
+    padding: 50px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.section5 .faq > .question{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+
+footer hr{
+    border: 1px solid white;
+    margin: 50px 0;
+    width: 20%;
+}
+
+footer nav{
+    width: 20%;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer li{
+    padding: 5px 0;
+}
+
+footer a{
+    color: white;
+}
+
+.language{
+    color: gray;
+    font-size: 0.8em;
+}

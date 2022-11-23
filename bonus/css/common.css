@@ -1,0 +1,67 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container-big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ai-stretch{
+    align-items: stretch;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: #0061ff;
+    border-style: none;
+    padding: 10px;
+}
+
+button > a{
+    color: white;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+.middle-son-margin{
+    margin: 20px 0;
+}

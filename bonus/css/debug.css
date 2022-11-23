@@ -1,0 +1,146 @@
+/* HEADER */
+.debug header > nav{
+    border: 2px dashed black;
+    background-color: orange;
+}
+
+.debug header div{
+    height: 20px;
+    width: 60px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+.debug header li{
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+/* MAIN */
+.debug .section1 .container-big > div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .section1 .container-flex > div:first-child{
+    height: 500px;
+    width: 30%;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .section1 .container-flex > div:last-child{
+    height: 500px;
+    width: 70%;
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug .section2 .container-small > div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .plans{
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .plans > div{
+    background-color: aqua;
+    height: 700px;
+}
+
+.debug .enterprise-plan{
+    background-color: green;
+    height: 200px;
+}
+
+/* FUNZIONI */
+.debug .section3 > .partner-finder > div:first-child{
+    height: 500px;
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .partner-finder > div:last-child{
+    height: 500px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .operations{
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .section3 > .operations > div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .first-row > div,.second-row > div{
+    height: 400px;
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+/* AZIENDE PARTNER */
+.debug .section4 > div:first-child{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .section4 .brands > div{
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug .section4 .companies > div:nth-child(2){
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.debug .trial > div{
+    height: 200px;
+    background-color: green;
+    border: 2px dashed black;
+}
+
+/* FAQ */
+.debug .section5 div:first-child{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.debug .section5 .faq > div{
+    height: 200px;
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+/* FOOTER */
+.debug .footer-links{
+    border: 2px dashed black;
+}
+
+.debug footer li{
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.debug footer .language{
+    background-color: yellow;
+    border: 2px dashed black;
+}
