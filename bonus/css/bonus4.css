@@ -1,0 +1,26 @@
+/* header */
+header{
+    background-color: black;
+    line-height: 30px;
+    z-index: 30;
+    position: fixed;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.bonus-btn-header{
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.bonus-btn-header a{
+    color: lightgray;
+}
+
+li{
+    padding: 20px 10px;
+}
+
+li a{
+    color: white;
+}

@@ -248,6 +248,7 @@ h1{
 
 .section3 .col-text > button:hover{
     background-color: #0061ff;
+    filter: brightness(1.5);
 }
 
 .section3 .col-text > button > a{
