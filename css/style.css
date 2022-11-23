@@ -113,14 +113,32 @@ h1{
     color: gray;
 }
 
+.section2 .plan-description > li{
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
 .section2 button{
     align-self: center;
     width: 80%;
 }
 
+.section2 .first-row-btn{
+    margin-top: 22px;
+}
+
+.section2 .buy-now{
+    line-height: 1em;
+}
+
+.section2 .buy-now > span{
+    vertical-align: middle;
+}
+
 .section2 .col-plan > p > a{
     text-decoration: underline;
     color: #1032f0;
+    vertical-align: middle;
 }
 
 .section2 .col-plan > hr{
