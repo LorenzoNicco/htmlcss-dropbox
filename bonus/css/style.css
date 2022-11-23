@@ -26,8 +26,49 @@ header button{
     padding: 10px 20px;
 }
 
-header li:not(#logo):hover{
+header .menu-opener:not(#logo):hover{
     box-shadow: inset 0px -2px 0px 0px #000000;
+}
+
+/* HEADER BONUS */
+.menu-opener{
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none;
+    background-color: lightgray;
+    z-index: 30;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: max-content;
+}
+
+.dropdown-menu > .col-2,.col-1{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sub-link{
+    padding: 0 20px;
+}
+
+.menu-opener:hover{
+    background-color: lightgray;
+}
+
+.menu-opener:hover .dropdown-menu{
+    display: block;
+}
+
+.sub-link:hover{
+    background-color: gray;
 }
 
 /* MAIN */
@@ -203,6 +244,10 @@ h1{
 .section3 .col-text > button{
     background-color: white;
     border: 2px solid gray;
+}
+
+.section3 .col-text > button:hover{
+    background-color: #0061ff;
 }
 
 .section3 .col-text > button > a{

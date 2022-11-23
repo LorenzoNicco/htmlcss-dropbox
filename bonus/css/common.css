@@ -65,3 +65,8 @@ h2{
 .middle-son-margin{
     margin: 20px 0;
 }
+
+/* Bonus */
+button:hover{
+    filter: brightness(2);
+}
