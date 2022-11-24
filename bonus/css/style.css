@@ -71,6 +71,12 @@ header .menu-opener:not(#logo):hover{
     background-color: gray;
 }
 
+.right{
+    position: absolute;
+    right: 0%;
+    left: auto;
+}
+
 /* MAIN */
 /* PRESENTAZONE */
 .section1{
